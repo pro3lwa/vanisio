@@ -6036,7 +6036,7 @@ function(module) {
                 attrs: {
                     id: "account-name"
                 }
-            }, [e._v(e._s(e.name))]), e._v(" "), s("div", [e._v("Level " + e._s(e.account.level))]), e._v(" "), s("div", [e._v(e._s(e.account.xp) + " Total XP")]), e._v(" "), s("div", [e._v(e._s(e.account.season_xp || 0) + " Season XP")])])]), e._v(" "), s("div", {
+            }, [e._v(e._s(e.name))]), e._v(" "), s("div", [e._v("Level " + e._s(e.account.level))]), e._v(" "), s("div", [e._v(e._s(e.1000000) + " Total XP")]), e._v(" "), s("div", [e._v(e._s(e.account.season_xp || 0) + " Season XP")])])]), e._v(" "), s("div", {
                 staticStyle: {
                     position: "relative"
                 }
