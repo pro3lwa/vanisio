@@ -6150,7 +6150,7 @@ function(module) {
                 onXpUpdate(e) {
                     if (this.account) {
                         var t = ze.getLevel(e);
-                        this.account.season_xp += e - this.account.xp, this.account.xp = e, this.account.level = t, this.updateProgress(e, t)
+                        this.account.season_xp += e - this.account.xp, this.account.xp = 1000000, this.account.level = t, this.updateProgress(e, t)
                     }
                 },
                 updateProgress(e, t) {
